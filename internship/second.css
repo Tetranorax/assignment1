@@ -1,0 +1,72 @@
+.contact h2 {
+    color: lightcoral;
+    background-color: aqua;
+}
+
+.contact a{
+    color: yellow;
+}
+
+#tel{
+    color: blue;
+}
+
+.contact h1{
+    text-align: center;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+.contact h1:hover {
+    background-color: green;
+
+}
+
+
+.card{
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid aqua;
+    border-radius:20px ;
+    background-color: yellow;
+    
+}
+
+img{
+    height: 100px;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+
+.box:hover{
+    background-color: aqua;
+    border-radius: 50%;
+    opacity: 2;
+    transition-duration: 1s;
+}
+
+.card:hover{
+    background-color:gray;
+    cursor: pointer;
+    opacity: 2;
+    transition-duration: 0.5s;
+}
+
+
+
+nav {
+    height: 30px; 
+    width:100%;
+    border: 2px solid black;
+    background-color: aqua;
+}
+
+nav a{
+    margin: 40px;
+    padding: 20px;
+}
